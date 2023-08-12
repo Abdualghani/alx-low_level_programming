@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-/*
+/**
  * main - Entry Point
  * Description: Print without prinf and put
  * Return: 1 not successful

@@ -4,8 +4,8 @@
 
 /**
  * main - entry point
- * Description : print the last digit
- * Retrn : Always 0 (success)
+ * Description: print the last digit
+ * Return: Always 0 (success)
 */
 
 int main(void)

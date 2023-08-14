@@ -8,16 +8,17 @@
 
 int main(void)
 {
-	char alphabet;
+char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'd' ; alphabet++)
+for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+{
+	if (alphabet == 'e' || alphabet == 'q')
 	{
-		if (alphabet != e, q)
-		{
-			putchar(alphabet);
-		}
+		alphabet++;
 	}
+}
+putchar(alphabet);
 
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }

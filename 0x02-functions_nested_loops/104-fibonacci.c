@@ -38,18 +38,18 @@ int main(void)
 			printf("%lu", f1o);
 		initials0s = numLength(mx) - 1 - numLength(f1);
 
-		while (f1o > 0 && intials > 0)
+		while (f1o > 0 && intials0s > 0)
 		{
 			printf("%d", 0);
 			initials0s--;
 		}
 		printf("%lu", f1);
 
-		sm = (f1 + f2) % mx;
+		sum = (f1 + f2) % mx;
 		sumo = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
 		f1o = f2o;
-		s2 = sum;
+		f2 = sum;
 		f2o = sumo;
 
 		if (count != 98)

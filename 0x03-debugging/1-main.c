@@ -2,7 +2,6 @@
 
 /**
  * * main - causes an infinite loop
- * Decsription: ac
  * * Return: 0
 */
 
